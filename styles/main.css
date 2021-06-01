@@ -37,8 +37,8 @@ main {
     /* background-color: blue; */
 }
 .logo > img {
-    /* height: 100%; */
-    vertical-align: middle;
+    height: 50px;
+    width: 50px;
 }
 .navbar {
     width: 70%;
@@ -55,14 +55,14 @@ main {
     text-align: right;
 }
 .sign-in {
-    color: #67b54b;
+    color: #015489;
     text-decoration: none;
     margin-right: 15px;
     margin-right: 10px;
 }
 .trial-btn {
     color: white;
-    background-color: #67b54b;
+    background-color: #015489;
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 12px;
@@ -79,13 +79,18 @@ main {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 60px;
     margin-bottom: 30px;
+    padding-top: 70px;
+}
+.subtitle {
+    color: white;
 }
 h4 {
     margin-bottom: 30px;
 }
 body {
+    font-family: "Alegreya", serif;
     margin: 0;
-    background-color: #354885;
+    background-color: #1f2c5e;
 }
 button {
     color: #FFF;
@@ -96,13 +101,17 @@ li {
 }
 .signup-form {
     height: 55px;
+    display: flex;
+    flex-direction: column;
 }
 .signup-form > * {
     height: 100%;
 }
 .email {
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    /* border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; */
+    border-radius: 8px;
+    margin-bottom: 10px;
     border: 1px solid #b6b6b6;
     padding: 6px 20px;
 }
@@ -237,12 +246,11 @@ li {
 
 .features {
     display: grid;
-    height: 660px;
+    height: 400px;
     /* grid-template-columns: repeat(2, 1fr); */
     /* grid-template-rows: repeat(2, 1fr); */
-    /*columnas / filas */
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    background-color: #025157;
+    grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+    background-color: #008bbe;
     padding: 5% 10%;
 }
 
@@ -304,3 +312,30 @@ li {
     margin-top: 0;
     height: 100%;
   }
+
+  .contacto {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: normal;
+    align-items: center;
+}
+
+.contacto input {
+    width: 300px;
+}
+
+.principal {
+    background-image: url('./img/fondo.png');
+    margin-top: -191px;
+    height: 300px;
+}
+
+.contacto-title {
+    color: white;
+    margin-bottom: 40px;
+}
+.name {
+    width: 100px;
+}
