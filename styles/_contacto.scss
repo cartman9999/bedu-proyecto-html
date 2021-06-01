@@ -1,0 +1,21 @@
+.contacto-section {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: normal;
+    align-items: center;
+
+    input {
+        width: 300px;
+    }
+
+    .contacto-title {
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .name {
+        width: 100px;
+    }
+}
